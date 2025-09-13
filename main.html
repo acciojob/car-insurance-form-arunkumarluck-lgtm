@@ -12,10 +12,10 @@
     <form method="post" action="https://www.hashemian.com/tools/form-post-tester.php/ras">
         <label for="name">Name</label>
 
-        <input type="text" required id="name" placeholder="Name">
+        <input type="text" required id="name" name='name' placeholder="Name">
         <br>
         <label for="email">Email</label>
-        <input type="email" required id="email" placeholder="Email">
+        <input type="email" required id="email" name='email' placeholder="Email">
         <br>
         <fieldset>
             <legend>Gender:</legend>
@@ -36,21 +36,17 @@
             <option value="Hyundai">Hyundai</option>
         </select>
         <br>
-        <label for="age">Age:</label>
-        <input type="number" required id="age" name="age">
+        <label for="carage">Age:</label>
+        <input type="number" required id="carage" name="carage">
         <br>
-        <label for="dob">Date of Birth (DOB):</label>
-        <input type="date" required id="dob" name="DOB">
+        <label for="dop">Date of Purchase (dop)</label>
+        <input type="date" required id="dop" name="dop">
         <br>
-        <label for="tel">Telephone Number:</label>
 
-        <input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
-        <br>
         <label for="password">Password (mininum 8 chars):</label>
         <input type="password" required id="password" name="password" placeholder="Password">
         <br>
-        <input type="checkbox" required id="tos" name="tos">
-        <label for="tos">I agree to the TOS</label>
+
         <br>
         <button type="submit" name="submit">Submit Now</button>
 
